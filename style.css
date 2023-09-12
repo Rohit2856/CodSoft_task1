@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px 15px;
+}
+
+.page nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo i {
+    color: #fabb29d6;
+    font-size: 28px;
+    margin: 10px;
+}
+
+nav .logo h1 {
+    color: rgb(223, 191, 14);
+    font-size: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    height: 80px;
+    position: relative;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.page .content {
+    width: 100%;
+    height: calc(100vh - 95px);
+    background: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.content .div-text span {
+    color: rgba(60, 69, 248, 0.646);
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-weight: bold;
+}
+
+.content .div-text h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 20px 0 8px;
+    color: rgb(22, 204, 254);
+}
+
+.content .div-text h1 {
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.content .div-text p {
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1.3px;
+    margin-bottom: 55px;
+}
+
+.content .div-text .btn {
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.content .div-text .btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.content .div-img img {
+    width: 700px;
+    height: 80%;
+}
+
+.page1 {
+    width: 100%;
+    height: 200vh;
+    padding: 0 15px 15px;
+}
+
+.page1 h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-left: 40%;
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 25px;
+}
+
+.page1 h1 span {
+    color: rgba(221, 133, 0, 0.954);
+}
+
+.page1 img {
+    height: 305px;
+    background-color: white;
+    border-radius: 10%;
+    margin: 40px;
+}
+
+.btn {
+    padding: 15px 154px;
+    background-color: #fff;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.menu1 h3 {
+    padding: 15px 155px;
+    margin: auto;
+    display: inline;
+    font-size: 11px;
+}
+
+.menu1.btn {
+    display: inline;
+    padding: 15px 155px;
+    font-size: 12px;
+}
+
+.page1 img {
+    height: 377px;
+    background-color: white;
+    border-radius: 10%;
+    width: 310px;
+}
+
+.menu2 h3 {
+    padding: 15px 155px;
+    display: inline;
+    font-size: 12px;
+}
+
+.menu2.btn {
+    display: inline;
+    padding: 15px 155px;
+    font-size: 20px;
+}
+
+.page2 {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-top: 130px;
+    background-color: #22deff;
+}
+
+.contact-text hi {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.contact-text hi span {
+    color: blue;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #22deff;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 220px;
+}
+
+.contact-form form .send {
+    display: inline-block;
+    padding: 12px 60px;
+    background: blue;
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
