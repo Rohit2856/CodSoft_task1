@@ -27,7 +27,7 @@ nav .logo {
 
 nav .logo i {
     color: #fabb29d6;
-    font-size: 28px;
+    font-size: 30px;
     margin: 10px;
 }
 
@@ -65,7 +65,7 @@ nav ul li a {
     padding: 0 5%;
 }
 
-.content .div-text span {
+.content .text span {
     color: rgba(60, 69, 248, 0.646);
     font-size: 25px;
     text-transform: uppercase;
@@ -73,7 +73,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.content .div-text h3 {
+.content .text h3 {
     text-transform: uppercase;
     letter-spacing: 1.8px;
     font-size: 50px;
@@ -82,7 +82,7 @@ nav ul li a {
     color: rgb(22, 204, 254);
 }
 
-.content .div-text h1 {
+.content .text h1 {
     font-size: 55px;
     font-weight: bold;
     text-transform: uppercase;
@@ -91,7 +91,7 @@ nav ul li a {
     margin-bottom: 25px;
 }
 
-.content .div-text p {
+.content .text p {
     color: rgb(255, 0, 0);
     font-size: 14px;
     line-height: 1.8;
@@ -99,7 +99,7 @@ nav ul li a {
     margin-bottom: 55px;
 }
 
-.content .div-text .btn {
+.content .text .btn {
     padding: 15px 35px;
     background-color: black;
     color: white;
@@ -110,12 +110,12 @@ nav ul li a {
     transition: 0.3s;
 }
 
-.content .div-text .btn:hover {
+.content .text .btn:hover {
     color: black;
     background-color: white;
 }
 
-.content .div-img img {
+.content .img img {
     width: 700px;
     height: 80%;
 }
@@ -123,7 +123,7 @@ nav ul li a {
 .page1 {
     width: 100%;
     height: 200vh;
-    padding: 0 15px 15px;
+    margin-right: 20px;
 }
 
 .page1 h1 {
@@ -163,35 +163,24 @@ nav ul li a {
 }
 
 .menu1 h3 {
-    padding: 15px 155px;
+    display: inline;
+    padding: 124px 124px;
     margin: auto;
-    display: inline;
-    font-size: 11px;
-}
-
-.menu1.btn {
-    display: inline;
-    padding: 15px 155px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .page1 img {
-    height: 377px;
+    height: 350px;
+    width: 350px;
     background-color: white;
-    border-radius: 10%;
-    width: 310px;
+    border-radius: 15%;    
 }
 
 .menu2 h3 {
-    padding: 15px 155px;
     display: inline;
-    font-size: 12px;
-}
-
-.menu2.btn {
-    display: inline;
-    padding: 15px 155px;
-    font-size: 20px;
+    padding: 124px 120px;
+    margin: auto;
+    font-size: 25px;
 }
 
 .page2 {
@@ -206,21 +195,21 @@ nav ul li a {
     background-color: #22deff;
 }
 
-.contact-text hi {
+.order hi {
     font-size: 60px;
     line-height: 1;
     margin-bottom: 50px;
 }
 
-.contact-text hi span {
+.order hi span {
     color: blue;
 }
 
-.contact-form form {
+.order-form form {
     position: relative;
 }
 
-.contact-form form input,
+.order-form form input,
 form textarea {
     outline: none;
     width: 90%;
@@ -233,12 +222,12 @@ form textarea {
     border-radius: 0.5rem;
 }
 
-.contact-form textarea {
+.order-form textarea {
     resize: none;
     height: 220px;
 }
 
-.contact-form form .send {
+.order-form form .send {
     display: inline-block;
     padding: 12px 60px;
     background: blue;
